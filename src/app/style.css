@@ -1,7 +1,3 @@
-
-app{
-  @import './programs-style/basic.scss';
-}
 .a{
   text-decoration: none;
   color: #ecf0f1
