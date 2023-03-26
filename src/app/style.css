@@ -1,3 +1,7 @@
+/* poheng Style Start */
+/* poheng Style Start */
+/* poheng Style Start */
+/* poheng Style Start */
 .a{
   text-decoration: none;
   color: #ecf0f1
@@ -59,8 +63,17 @@ main.main {
   --emoji-font-size: 20px
 }
 
+footer.site-footer {
+  flex-direction: column;
+}
 
-//Hugo Style Start
+/* poheng Style End */
+/* poheng Style End */
+/* poheng Style End */
+/* poheng Style End */
+
+
+/* Hugo Style Start */
 
 [data-scheme=light] .chroma {
   color: #272822;
@@ -2398,7 +2411,17 @@ a.link:hover {
 
 
 
-//Hudo Style End
+/* Hugo Style End */
+/* Hugo Style End */
+/* Hugo Style End */
+/* Hugo Style End */
+/* Hugo Style End */
+/* Hugo Style End */
+/* Hugo Style End */
+/* Hugo Style End */
+/* Hugo Style End */
+/* Hugo Style End */
+/* Hugo Style End */
 
 :host {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
