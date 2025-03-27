@@ -1,23 +1,108 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>前端Junior的世界</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>美食探險家 - 個人美食部落格</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-  <app-root></app-root>
-  <!-- 給公告和輪播才會動 -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-  crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-  crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-  crossorigin="anonymous"></script>
+    <header>
+        <nav>
+            <div class="logo">美食探險家</div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="recipes.html">Recipes</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>美食部落格</h1>
+            <p>一次一道菜探索世界</p>
+        </section>
+
+        <section class="featured-posts">
+            <h2>精選貼文</h2>
+            <div class="post-grid">
+                <article class="post-card">
+                    <img src="images/featured-1.jpg" alt="Featured Recipe">
+                    <div class="post-content">
+                        <h3>義大利麵</h3>
+                        <p>從零開始學做正宗的義大利麵...</p>
+                        <a href="recipes.html" class="read-more">Read More</a>
+                    </div>
+                </article>
+                <article class="post-card">
+                    <img src="images/featured-2.jpg" alt="Restaurant Review">
+                    <div class="post-content">
+                        <h3>隱藏版美食</h3>
+                        <p>探索城市中的隱藏寶藏...</p>
+                        <a href="reviews.html" class="read-more">Read More</a>
+                    </div>
+                </article>
+                <article class="post-card">
+                    <img src="images/featured-3.jpg" alt="Food Photography">
+                    <div class="post-content">
+                        <h3>美食攝影技巧</h3>
+                        <p>如何捕捉完美的食物照片...</p>
+                        <a href="about.html" class="read-more">Read More</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="newsletter">
+            <h2>訂閱我們的電子報</h2>
+            <p>接收最新的食譜和美食探險！</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="請輸入您的電子郵件" required>
+                <button type="submit">訂閱</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>美食探險家</h3>
+                <p>一次一道菜探索世界</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="recipes.html">Recipes</a></li>
+                    <li><a href="reviews.html">Reviews</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Foodie Adventures. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
-</html>
+</html> 

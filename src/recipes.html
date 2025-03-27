@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>口袋名單 - 美食探險家</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">美食探險家</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="recipes.html" class="active">Recipes</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="recipes-hero">
+            <h1>我的口袋餐廳</h1>
+            <p>從我的日常分享成為你的美味佳餚</p>
+        </section>
+
+        <section class="recipe-filters">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="breakfast">Breakfast</button>
+                <button class="filter-btn" data-filter="lunch">Lunch</button>
+                <button class="filter-btn" data-filter="dinner">Dinner</button>
+                <button class="filter-btn" data-filter="dessert">Dessert</button>
+            </div>
+        </section>
+
+        <section class="recipes-grid">
+            <!-- Recipe Card 1 -->
+            <article class="recipe-card" data-category="breakfast">
+                <div class="recipe-image">
+                    <img src="images/recipe-1.jpg" alt="Healthy Breakfast Bowl">
+                </div>
+                <div class="recipe-content">
+                    <h3>好棒棒健康早餐</h3>
+                    <div class="recipe-meta">
+                        <span><i class="far fa-clock"></i> 15 mins</span>
+                        <span><i class="fas fa-utensils"></i> Easy</span>
+                    </div>
+                    <p>A nutritious and delicious breakfast bowl packed with protein and fresh ingredients.</p>
+                    <a href="#" class="read-more">View Recipe</a>
+                </div>
+            </article>
+
+            <!-- Recipe Card 2 -->
+            <article class="recipe-card" data-category="lunch">
+                <div class="recipe-image">
+                    <img src="images/recipe-2.jpg" alt="Mediterranean Salad">
+                </div>
+                <div class="recipe-content">
+                    <h3>地中海沙拉</h3>
+                    <div class="recipe-meta">
+                        <span><i class="far fa-clock"></i> 20 mins</span>
+                        <span><i class="fas fa-utensils"></i> Easy</span>
+                    </div>
+                    <p>Fresh and vibrant Mediterranean salad with homemade dressing.</p>
+                    <a href="#" class="read-more">View Recipe</a>
+                </div>
+            </article>
+
+            <!-- Recipe Card 3 -->
+            <article class="recipe-card" data-category="dinner">
+                <div class="recipe-image">
+                    <img src="images/recipe-3.jpg" alt="Homemade Pasta">
+                </div>
+                <div class="recipe-content">
+                    <h3>義大利麵</h3>
+                    <div class="recipe-meta">
+                        <span><i class="far fa-clock"></i> 45 mins</span>
+                        <span><i class="fas fa-utensils"></i> Medium</span>
+                    </div>
+                    <p>Classic Italian pasta made from scratch with fresh ingredients.</p>
+                    <a href="#" class="read-more">View Recipe</a>
+                </div>
+            </article>
+
+            <!-- Recipe Card 4 -->
+            <article class="recipe-card" data-category="dessert">
+                <div class="recipe-image">
+                    <img src="images/recipe-4.jpg" alt="Chocolate Cake">
+                </div>
+                <div class="recipe-content">
+                    <h3>會變胖的巧克力蛋糕</h3>
+                    <div class="recipe-meta">
+                        <span><i class="far fa-clock"></i> 60 mins</span>
+                        <span><i class="fas fa-utensils"></i> Medium</span>
+                    </div>
+                    <p>Rich and moist chocolate cake with ganache frosting.</p>
+                    <a href="#" class="read-more">View Recipe</a>
+                </div>
+            </article>
+        </section>
+
+        <section class="recipe-featured">
+            <h2>特色料理</h2>
+            <div class="featured-recipe">
+                <div class="featured-image">
+                    <img src="images/featured-recipe.jpg" alt="Featured Recipe">
+                </div>
+                <div class="featured-content">
+                    <h3>Signature Dish</h3>
+                    <p>This is my most popular recipe, loved by readers and family alike. It combines fresh ingredients with simple techniques to create something special.</p>
+                    <div class="recipe-details">
+                        <div class="detail">
+                            <i class="far fa-clock"></i>
+                            <span>Prep Time: 30 mins</span>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-utensils"></i>
+                            <span>Cook Time: 45 mins</span>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-users"></i>
+                            <span>Servings: 4</span>
+                        </div>
+                    </div>
+                    <a href="#" class="read-more">View Full Recipe</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Foodie Adventures</h3>
+                <p>Exploring the world one dish at a time</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="recipes.html">Recipes</a></li>
+                    <li><a href="reviews.html">Reviews</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Foodie Adventures. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
